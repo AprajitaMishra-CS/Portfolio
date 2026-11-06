@@ -97,30 +97,8 @@ export default function Havenova() {
                     </motion.div>
 
                     <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7 }} className="relative">
-                        <div className="rounded-3xl border border-white/10 bg-white/[0.04] p-3 shadow-2xl shadow-blue-950/20">
-                            <div className="flex items-center gap-2 border-b border-white/10 px-3 py-4">
-                                <span className="h-2.5 w-2.5 rounded-full bg-red-400" />
-
-                                <span className="h-2.5 w-2.5 rounded-full bg-yellow-400" />
-
-                                <span className="h-2.5 w-2.5 rounded-full bg-green-400" />
-
-                                <span className="ml-3 text-xs text-zinc-500">
-                                    havenova — project preview
-                                </span>
-                            </div>
-
-                            <div className="flex min-h-72 flex-col items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500/15 via-violet-500/10 to-zinc-900 p-8 text-center sm:min-h-80">
-                                <div className="mb-5 rounded-2xl border border-white/10 bg-white/10 p-5">
-                                    <Home size={46} className="text-blue-300" />
-                                </div>
-
-                                <h2 className="text-3xl font-bold tracking-wide">HAVENOVA</h2>
-
-                                <p className="mt-3 text-sm text-zinc-400">
-                                    Discover places. Explore possibilities.
-                                </p>
-                            </div>
+                        <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.04] p-2 shadow-2xl shadow-blue-950/20">
+                            <img src="/images/havenova/Preview.png" alt="Havenova Accommodation Discovery Platform" className="h-auto w-full rounded-2xl object-cover" />
                         </div>
                     </motion.div>
                 </section>
@@ -253,7 +231,7 @@ export default function Havenova() {
                     <Link to="/" className="transition hover:text-white">
                         ← Return to Portfolio
                     </Link>
-                    
+
                     <span>Havenova · Project Case Study</span>
                 </div>
             </div>

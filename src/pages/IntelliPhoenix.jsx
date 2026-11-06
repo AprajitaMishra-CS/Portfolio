@@ -82,20 +82,11 @@ export default function IntelliPhoenix() {
                     </div>
                 </motion.div>
 
-                {/* Project Preview */}
-                <div className="mt-16 overflow-hidden rounded-2xl border border-white/10 bg-[#111114]">
-                    <div className="flex aspect-video items-center justify-center bg-gradient-to-br from-violet-950 via-[#171326] to-blue-950">
-                        <div className="text-center">
-                            <HeartPulse size={55} className="mx-auto mb-4 text-violet-300" />
-
-                            <p className="text-2xl font-bold">IntelliPhoenix</p>
-
-                            <p className="mt-2 text-sm text-white/50">
-                                Healthcare Platform Preview
-                            </p>
-                        </div>
+                <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7 }} className="relative">
+                    <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/[0.04] p-2 shadow-2xl shadow-violet-950/20">
+                        <img src="/images/intelliphoenix/Preview.png" alt="IntelliPhoenix AI-Powered Healthcare Platform" className="h-auto w-full rounded-2xl object-cover" />
                     </div>
-                </div>
+                </motion.div>
 
                 <section className="mt-24 grid gap-10 md:grid-cols-[1fr_0.7fr]">
                     <div>
