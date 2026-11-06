@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { GraduationCap, Trophy, Code2, Rocket, ArrowUpRight, Sparkles } from "lucide-react";
+import { GraduationCap, Trophy, Code2, Rocket, Stars, Sparkles } from "lucide-react";
 
 const highlights = [
     {
@@ -84,7 +84,7 @@ export default function Highlights() {
                                             HIGHLIGHT {String(index+1).padStart(2, "0")}
                                         </span>
 
-                                        <ArrowUpRight size={17} className="text-zinc-500 transition group-hover:text-violet-400"/>
+                                        <Stars size={17} className="text-zinc-500 transition group-hover:text-violet-400"/>
                                     </div>
                                 </div>
                             </motion.div>

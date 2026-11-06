@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ArrowUpRight, ExternalLink, Sparkles, } from "lucide-react";
+import { ArrowUpRight, ExternalLink, Sparkles, Stars } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -113,7 +113,7 @@ export default function Projects() {
                                     <span className="text-sm font-medium text-violet-400">
                                         PROJECT {project.number}
                                     </span>
-                                    <ArrowUpRight size={20} className="text-zinc-500 transition group-hover:text-violet-400" />
+                                    <Stars size={20} className="text-zinc-500 transition group-hover:text-violet-400" />
                                 </div>
 
                                 <h3 className="text-2xl font-bold text-white">
