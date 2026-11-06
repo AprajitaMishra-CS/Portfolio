@@ -5,6 +5,7 @@ import Highlights from "../sections/Highlights";
 import LetsConnect from "../sections/LetsConnect";
 import Projects from "../sections/Projects";
 import Skills from "../sections/Skills";
+import Footer from "../components/Footer";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Projects />
             <Highlights />
             <LetsConnect />
+            <Footer />
         </div>
     );
 }
