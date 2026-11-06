@@ -7,7 +7,7 @@ const navLinks = [
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Projects", href: "#projects" },
-    { name: "Contact", href: "#contact" },
+    { name: "Highlights", href: "#highlights" },
 ];
 
 export default function Navbar() {
@@ -29,7 +29,7 @@ export default function Navbar() {
                 </div>
 
                 <a href="#contact" className="hidden items-center gap-2 rounded-full bg-violet-500 px-5 py-2.5 text-sm font-semibold text-white transition-all duration-300 hover:bg-violet-600 hover:shadow-lg hover:shadow-violet-500/20 md:flex">
-                    Let's Talk
+                    Let's Connect
                     <ArrowUpRight size={16}/>
                 </a>
 
