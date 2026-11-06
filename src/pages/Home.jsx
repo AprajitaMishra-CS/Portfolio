@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import About from "../sections/About";
 import Hero from "../sections/Hero";
 import Highlights from "../sections/Highlights";
+import LetsConnect from "../sections/LetsConnect";
 import Projects from "../sections/Projects";
 import Skills from "../sections/Skills";
 
@@ -14,6 +15,7 @@ export default function Home() {
             <Skills />
             <Projects />
             <Highlights />
+            <LetsConnect />
         </div>
     );
 }

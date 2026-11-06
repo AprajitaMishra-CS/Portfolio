@@ -49,7 +49,7 @@ export default function Navbar() {
                         ))}
 
                         <a href="#contact" onClick={() => setIsOpen(false)} className="flex w-fit items-center gap-2 rounded-full bg-violet-500 px-5 py-3 text-sm font-semibold text-white">
-                            Let's Talk
+                            Let's Connect
                             <ArrowUpRight size={16}/>
                         </a>
                     </div>
