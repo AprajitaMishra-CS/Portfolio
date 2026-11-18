@@ -42,22 +42,29 @@ Full-stack accommodation listing platform with property listings and CRUD functi
 
 Clone the repository:
 
-```bash
 git clone 
+```bash
 http://github.com/AprajitaMishra-CS/Portfolio
-
-Navigate to the project folder:
-cd portfolio
-
-Install dependencies:
-npm install
-
-Start the development server:
-npm run dev
-
-Open the local URL provided by Vite in your browser.
 ```
 
-## Connect
+Navigate to the project folder:
+```bash
+cd portfolio
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Start the development server:
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## Author
+### Aprajita Mishra
 
 - GitHub: https://github.com/AprajitaMishra-CS
