@@ -42,8 +42,8 @@ Full-stack accommodation listing platform with property listings and CRUD functi
 
 Clone the repository:
 
-git clone 
 ```bash
+git clone 
 http://github.com/AprajitaMishra-CS/Portfolio
 ```
 
